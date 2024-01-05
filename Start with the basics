@@ -1,0 +1,12 @@
+//manage errors and debug code
+use python - 
+import logging
+# Configure the logging module
+logging.basicConfig(filename='lms.log', level=logging.ERROR)
+
+# Example error handling in a view
+def my_view(request):
+    try:
+        # Your code here
+    except Exception as e:
+        logging.error(f'An error occurred: {e}')
