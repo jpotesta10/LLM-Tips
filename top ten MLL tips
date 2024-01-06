@@ -1,0 +1,12 @@
+//Code for making great LLMs - top ten list.
+#example using Django 
+from Django.contrib.auth import authenticate, login, logout
+
+#user registration view
+def register_user(request):
+#your code here for user registration
+
+#user login view
+def login_user(request);
+#your code here for user login
+
